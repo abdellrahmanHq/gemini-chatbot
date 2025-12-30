@@ -23,7 +23,7 @@ except Exception as e:
     st.stop()
 
 # Use the model (Ensure this model name is valid in your region)
-MODEL_NAME = "gemini-1.5-flash" 
+MODEL_NAME = "gemini-2.5-flash" 
 model = genai.GenerativeModel(MODEL_NAME)
 
 # --------------------------
